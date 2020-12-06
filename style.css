@@ -1,0 +1,24 @@
+.window{
+  display: flex;
+  height: 247px;
+  width: 204px;
+  border: 1px solid #000;
+  overflow: hidden;
+}
+.window img{
+  height: 247px;
+  width: 204px;  
+}
+button.active{
+  color: red;
+}
+
+img:nth-child(1).active{
+  transform:translateX(0);
+}
+img:nth-child(2).active{
+  transform:translateX(-204px);
+}
+img:nth-child(3).active{
+  transform:translateX(-408px);
+}
